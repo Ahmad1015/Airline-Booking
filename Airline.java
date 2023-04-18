@@ -88,7 +88,7 @@ public class Airline
                         int j;
                         for (j = 0; j < seats.length; j++)
                         {
-                            if (seats[j] == false)
+                            if (!seats[j])
                             {
                                 seats[j] = true;
                                 counter1++;
